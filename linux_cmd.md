@@ -6,3 +6,7 @@ sudo - username
 
 ### Buscar palabra en carpeta
 grep -nr -B 4 "palabra_buscada" nombre_carpeta/
+
+
+### instalar base de datos comprimida
+sudo -u postgres bash -c "gunzip -c /home/ramcolog/backup_db_ziyu/20220922_05-00_db_ziyu.sql.gz | psql db_ziyu;"
