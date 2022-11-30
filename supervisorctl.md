@@ -2,7 +2,7 @@
 supervisorctl reread
 supervisorctl update
 
-/etc/supervisor/conf.d
+cat /etc/supervisor/conf.d
 chmod +x
 
 <https://www.digitalocean.com/community/tutorials/how-to-install-and-manage-supervisor-on-ubuntu-and-debian-vps>
