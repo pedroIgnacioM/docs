@@ -3,4 +3,4 @@
 Pasos para instalar entorno virtual con pyenv
 
 pyenv install 3.x.x
-virtualenv -p /home/kari/.pyenv/versions/3.x.x/bin/python enva
+virtualenv -p /Users/usuario/.pyenv/versions/3.11.1/bin/python env
