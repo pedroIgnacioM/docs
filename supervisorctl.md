@@ -28,3 +28,13 @@ autostart=true
 autorestart=true
 stderr_logfile=/opt/logs/ziyu/ziyu_celery_main_tasks.err.log
 stdout_logfile=/opt/logs/ziyu/ziyu_celery_main_tasks.out.log
+
+
+[program:mintral-subscribe]
+directory=/opt/mintral_web/
+command=/opt/mintral_web/mintral/supervisor_config_subscribe_test.sh
+autostart=true
+autorestart=true
+stderr_logfile=/opt/logs/mintral/mintral_subscribe.err.log
+stdout_logfile=/opt/logs/mintral/mintral_subscribe.out.log
+priority = 50

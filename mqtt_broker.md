@@ -1,4 +1,5 @@
 <https://www.luisllamas.es/como-instalar-mosquitto-el-broker-mqtt/>
+<https://www.vultr.com/docs/install-mosquitto-mqtt-broker-on-ubuntu-20-04-server/>
 
 Config de ejemplo
 
