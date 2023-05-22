@@ -33,3 +33,10 @@ Config de ejemplo
 
 	persistence false
 	log_dest none
+
+
+# Local MACOS DEV
+En el archivo "/usr/local/etc/mosquitto/mosquitto.conf" agregar las siguientes lineas:
+
+listener 1883 0.0.0.0
+allow_anonymous true
