@@ -4,7 +4,7 @@ Ejemplo con mintral
 
 - Crear archivo
 
-touch /etc/nginx/sites-available/mintral
+touch /etc/nginx/sites-available/wisecity
 
 
 - Ejemplo de archivo
@@ -45,7 +45,7 @@ server {
 }
 
 - Agregar a avalibles
-sudo ln -s /etc/nginx/sites-available/mintral /etc/nginx/sites-enabled
+sudo ln -s /etc/nginx/sites-available/wisecity /etc/nginx/sites-enabled
 
 - Sintaxis
 sudo nginx -t
@@ -54,7 +54,7 @@ sudo nginx -t
 sudo systemctl restart nginx
 
 - Firmar con certbot
-sudo certbot --nginx -d mintral-app.kausana.cl
+sudo certbot --nginx -d wisecity-app.kausana.cl
 
 - Referencias
 
