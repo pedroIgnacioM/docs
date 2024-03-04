@@ -20,3 +20,10 @@ ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCTa1S+VNBtjwZfvtMxgo3utc2J9ViyoGizrUn2cPAo
 # Agregar identidad global
 git config --global user.name "Mimosa Server"
 git config --global user.email mimosa@kausana.cl
+
+# Multiple cuenta
+https://gist.github.com/oanhnn/80a89405ab9023894df7
+
+git remote set-url origin git@github-personal:pedroIgnacioM/docs.git
+git config user.email "pedro.ignaciom95@gmail.com"
+git config user.name  "PedroM Mac"
