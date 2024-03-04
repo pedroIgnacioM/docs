@@ -21,7 +21,7 @@ stdout_logfile=/opt/logs/ziyu_nav/celery_beat.out.log
 
 [program:wisecity-celery-worker]
 directory=/opt/wisecity_web/
-command=/root/.pyenv/versions/wisecity/bin/celery -A traklok.celery worker -l info -Q main_tasks
+command=/root/.pyenv/versions/wisecity/bin/celery -A traklok.celery worker -l info -Q main_tasks --discard
 environment=PATH="/root/.pyenv/versions/ziyu/bin"
 autostart=true
 autorestart=true

@@ -53,6 +53,8 @@ sudo nginx -t
 - Restart
 sudo systemctl restart nginx
 
+- instalar cerbot
+sudo apt install certbot python3-certbot-nginx
 - Firmar con certbot
 sudo certbot --nginx -d wisecity-app.kausana.cl
 
