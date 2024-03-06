@@ -21,7 +21,7 @@ stdout_logfile=/opt/logs/ziyu_nav/celery_beat.out.log
 
 [program:wisecity-celery-worker]
 directory=/opt/wisecity_web/
-command=/root/.pyenv/versions/wisecity/bin/celery -A traklok.celery worker -l info -Q main_tasks --discard
+command=/root/.pyenv/versions/wisecity/bin/celery -A traklok.celery worker -l info -Q main_tasks --discard --max-tasks-per-child=10
 environment=PATH="/root/.pyenv/versions/ziyu/bin"
 autostart=true
 autorestart=true
@@ -119,3 +119,7 @@ autostart=true
 autorestart=true
 stderr_logfile=/opt/logs/kaumon/kaumon.err.log
 stdout_logfile=/opt/logs/kaumon/kaumon.out.log
+
+### Celery
+
+https://medium.com/@ksarthak4ever/django-handling-periodic-tasks-with-celery-daaa2a146f14
